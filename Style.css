@@ -1,0 +1,91 @@
+*{
+    margin: 1%;
+    padding: 0%;
+}
+select, label{
+    width: 45%;
+}
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30vw;
+    left: 30vw;
+}
+
+.contcards{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-book {
+    display: flex;
+    flex-direction: column;
+    width: 20vw; 
+    height: 40vw;
+    margin: 0.5vw auto; 
+    background-color: burlywood;
+    box-shadow: 5px 5px 10px #999;
+    overflow: hidden;
+  }
+  .card-book:hover {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vw;
+    background-color: rgb(245, 218, 184);
+    box-shadow: 5px 5px 10px #999;
+    overflow: visible;
+}
+  .book-image {
+      width: 15vw;
+      height: 19vw;
+      border: 1px solid black;
+  }
+  img {
+      width: 15vw;
+      height: 19vw;
+      margin: 0%;
+      padding: 0%;
+  }
+  .card-body {
+      width: 100%;
+      height: auto;
+      
+  } 
+  .book-title{
+      max-width: auto;
+      height: 3.5vw;
+      overflow: hidden;
+  }
+  .date-publi{
+      max-height: 2vw;
+      max-width: auto;
+      overflow: hidden;
+  }
+  .book-pages{
+      max-height: 2vw;
+      max-width: auto;
+      margin-top: 0.5vw; 
+      margin-bottom: 0.5vw;
+      /* overflow: hidden; */
+  }
+  .book-descr{
+      /* height: 45vw; */
+      overflow: hidden;
+  }
+  .bold{
+      font-size: smaller;
+  }
+  .book-pages{
+      height: 1.5vw;
+  }

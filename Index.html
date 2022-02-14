@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="books.json"></script>
+    <title>Ouvrages informatiques</title>
+</head>
+
+<body onload="selectedAuthor()">
+    <label>Auteur(s) : </label><br>
+    <select id="Author" onchange="ChargeByAuthor()"></select><br>
+    <label>Catégorie(s) :</label><br>
+    <select id="Category" onchange="ChargeByCategory()"></select>
+    <div id="Choice">
+        <div class='contcards'>
+            <div class="card-book">
+                <a>
+                    <div class="book-image"><img src="" /></div>
+                    <div class="card-body">
+                        <div class="date-publi"></div>
+                        <div class="book-title"></div>
+                        <div class="book-descr"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="JS3.js"></script>
+
+</html>
